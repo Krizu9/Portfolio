@@ -31,6 +31,7 @@
     background-image: url(./pictures/question.jpg);
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 50px;
 }
 
 
@@ -95,6 +96,18 @@ h4 {
 .card {
     padding-top: 1rem;
     margin: 0.5rem;
+    cursor: pointer;
+}
+
+.expCard {
+    padding-top: 1rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.expCard h2 {
+    font-size: 1.4rem;
 }
 
 .experienceContainer {
@@ -103,7 +116,7 @@ h4 {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 2rem;
+
 }
 
 .workContainer {
@@ -113,6 +126,9 @@ h4 {
     align-items: center;
     flex-wrap: wrap;
     padding-top: 2rem;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .schoolContainer {
@@ -122,10 +138,76 @@ h4 {
     align-items: center;
     flex-wrap: wrap;
     padding-top: 2rem;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    background-image: url(./pictures/contact_small.jpg);
+    height: 800px;
+    width: 800px;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.7);
+}
+
+.phoneNumber {
+    color: white;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-shadow:
+        1px 1px 2px black,
+        0 0 1em blue,
+        0 0 0.2em blue;
+    font-size: 3rem;
+}
+
+.email {
+    color: white;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-shadow:
+        1px 1px 2px black,
+        0 0 1em blue,
+        0 0 0.2em blue;
+    font-size: 2rem;
+}
+
+.contactContainer {
+    background-color: chocolate;
 }
 
 @media screen and (max-width: 768px) {
     .cardContainer {
         justify-content: center;
+    }
+
+    .expCard {
+        font-size: 1rem;
+    }
+
+    .expCard h3 {
+        font-size: 1.2rem;
+    }
+
+    .expCard h2 {
+        font-size: 1.1rem;
+    }
+
+    .contact {
+        height: 25rem;
+        width: 100%
+    }
+
+    .email {
+        font-size: 1.5rem;
+    }
+
+    .phoneNumber {
+        font-size: 2rem;
     }
 }

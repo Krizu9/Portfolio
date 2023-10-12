@@ -37,14 +37,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" style="color:white" href="#">Information</a>
+                        <a class="nav-link active" aria-current="page" style="color:white"
+                            href="#information">Information</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" style="color:white" href="#">Work / School
+                        <a class="nav-link active" aria-current="page" style="color:white" href="#experience">Work /
+                            School
                             Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" style="color:white" href="#">Contact</a>
+                        <a class="nav-link active" aria-current="page" style="color:white" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -57,46 +59,117 @@
                 <img class="profPic" src="./pictures/mina.jpg">
         </div>
     </div>
-    <div class="info">
+    <div id="information" class="info">
         <h1>Information about me!</h1>
         <p>23 Years old.</p>
         <p>4 th-year student.</p>
         <p>Mostly interested about coding, and learning more of it.</p>
         <p>Languages I can write: (atleast hello world) (click to see proof)</p>
         <div class="cardContainer">
-            <div class="card">
+            <div onclick="window.open('https://github.com/Krizu9/schoolwork/tree/main/Ohjelmointi/web-visualization')"
+                class="card">
                 <p>&lt;p&gt;Hello World&lt;/p&gt; (HTML)</p>
             </div>
-            <div class="card">
+            <div onclick="window.open('https://github.com/Krizu9/schoolwork/tree/main/Ohjelmointi/Fullstack')"
+                class="card">
                 <p>console.log("Hello World!"); (JS)</p>
             </div>
-            <div class="card">
+            <div onclick="window.open('https://github.com/Krizu9/schoolwork/tree/main/Ohjelmointi/python/ttc2030')"
+                class="card">
                 <p>print("Hello World!") (Python)</p>
             </div>
-            <div class="card">
+            <div onclick="window.open('https://github.com/Krizu9/schoolwork/tree/main/Ohjelmointi/objectOriantedProgramming')"
+                class="card">
                 <p>Console.WriteLine("Hello World!"); (C#)</p>
             </div>
-            <div class="card">
+            <div onclick="window.open('https://github.com/Krizu9/schoolwork/tree/main/Ohjelmointi/mobile-exercises')"
+                class="card">
                 <p>&lt;Text&gt;Hello World!&lt;/Text&gt; (React)</p>
             </div>
-            <div class="card">
-                <p>println("Hello, World!") (Kotlin)</p>
+            <div onclick="window.open('https://github.com/Krizu9/schoolwork/tree/main/Ohjelmointi/android-exercises')"
+                class="card">
+                <p>println("Hello World!") (Kotlin)</p>
             </div>
-            <div class="card">
-                <p>printf("Hello, World!"); (C)</p>
+            <div data-bs-target="#exampleModal" data-bs-toggle="modal" class="card">
+                <p>printf("Hello World!"); (C)</p>
             </div>
-            <div class="card">
+            <div onclick="window.open('https://github.com/Krizu9/schoolwork/tree/main/Ohjelmointi/SQL')" class="card">
                 <p>SELECT * Hello FROM messages; (SQL)</p>
             </div>
         </div>
     </div>
+    <h1 id="experience" style="text-align: center; padding-top: 40px;">Work / School Experience</h1>
     <div class="experienceContainer">
-        <h1>Work / School Experience</h1>
+
         <div class="workContainer">
-            <div>workaaaaaaaas</div>
+            <div class="expCard">
+                <h3>09/2021 - Current job <br> Tokmanni Oyj</h3>
+                <h2>-Cashier-</h2>
+                <p>Customer service, unloading products to shelves from cargo.</p>
+            </div>
+            <div class="expCard">
+                <h3>09/2019 - 03/2020 <br> Enia Oy</h3>
+                <h2>-Sales representative-</h2>
+                <p>Sales representative's tasks have included the acquisition of consumer and corporate customers as
+                    well as customer
+                    service duties in the highly competitive GSM operator market.</p>
+            </div>
+            <div class="expCard">
+                <h3>05/2019 - 12/2019<br> ATK-Palvelut ja Neuvonta Pekkanen</h3>
+                <h2>-My own small business-</h2>
+                <p>Marketing, repairing small devices, setting up home networks, etc.</p>
+            </div>
+            <div class="expCard">
+                <h3>05/2018 - 08/2020 <br>Olvi Oyj</h3>
+                <h2>-Sales promotion-</h2>
+                <p>Adding Olvi's and its sister companies products to shelves from stores stocks</p>
+            </div>
+            <div class="expCard">
+                <h3>01/2017 - 03/2017 <br>Minimani Yhtiöt Oyj</h3>
+                <h2>-Trainee at IT-department-</h2>
+                <p>I worked in various tasks in the IT department, e.g. implementation of the Cisco WLAN network
+                    solution, learned about
+                    and built the user interface for Android PDA devices, configured network switches.</p>
+            </div>
         </div>
         <div class="schoolContainer">
-            <div>schoolaaaaaa</div>
+            <div class="expCard">
+                <h3>2022 - Current studies <br> Jyväskylä University of Applied Sciences</h3>
+                <p>Tieto- ja Viestintätekniikka 240op</p>
+            </div>
+            <div class="expCard">
+                <h3>2020 - 2022<br>Kokkola University of Applied Sciences</h3>
+                <p>Tieto- ja Viestintätekniikka 240op</p>
+            </div>
+            <div class="expCard">
+                <h3>2015 - 2018<br>Seinäjoki Vocational School - Sedu</h3>
+                <p>Information and communication technology 180op</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contactContainer">
+        <h1 style="text-align: center; padding-top: 40px; padding-bottom: 40px;">Contact!</h1>
+        <div id="contact" class="contact">
+            <p class="phoneNumber">0400279579</p>
+            <p class="email">kristian.pekkanen6@gmail.com</p>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sorry!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    No proof of this (yet)
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
 
