@@ -181,6 +181,16 @@ h4 {
     background-color: chocolate;
 }
 
+#linkedIn {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#gitHub {
+    font-size: 24px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
     .cardContainer {
         justify-content: center;
@@ -209,5 +219,15 @@ h4 {
 
     .phoneNumber {
         font-size: 2rem;
+    }
+
+    #linkedIn {
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    #gitHub {
+        font-size: 16px;
+        cursor: pointer;
     }
 }
