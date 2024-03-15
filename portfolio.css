@@ -84,6 +84,33 @@ h4 {
     z-index: 100;
 }
 
+#iframe {
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+
+}
+
+.videoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 60%;
+    height: auto;
+}
+
 .cardContainer {
     display: flex;
     flex-direction: row;
