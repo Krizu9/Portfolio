@@ -214,6 +214,12 @@ h4 {
         justify-content: center;
     }
 
+    .youtube-video {
+
+        width: 95%;
+
+    }
+
     .expCard {
         font-size: 1rem;
     }
