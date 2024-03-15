@@ -84,16 +84,6 @@ h4 {
     z-index: 100;
 }
 
-#iframe {
-
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    text-align: center;
-
-}
 
 .videoContainer {
     display: flex;
@@ -109,6 +99,7 @@ h4 {
     aspect-ratio: 16 / 9;
     width: 60%;
     height: auto;
+    padding-bottom: 50px;
 }
 
 .cardContainer {
